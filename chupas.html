@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background-color: grey;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  color: grey;
+}
+
+fieldset {
+  border-radius: 5px;
+  border: 1px dotted green;
+}
+
+h1 {
+  text-align: center;
+}
+</style>
+<title>Problema</title>
+</head>
+
+<body>
+  <div>
+    <h1>Iniciar Sesión en X</h1>
+    <form action="chalupas.php" method="post">
+      Ingresar tu Correo Electrónico:
+      <input type="email" name="correo">
+      <br>
+      Ingresar tu Contraseña:
+      <input type="password" name="contrasena">
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+
+</html>
